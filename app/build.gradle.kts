@@ -1,13 +1,13 @@
 plugins {
     id("dagger.hilt.android.plugin")
-    id("kotlin-kapt")
+    kotlin("kapt")
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "me.nyn.xspends"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "me.nyn.xspends"
