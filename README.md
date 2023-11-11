@@ -19,7 +19,7 @@
 6. **Handling State**:
     - Determine how to handle and store the UI state effectively, especially for complex UIs or data-driven screens.
 
-### Implement User Authentication
+### User Authentication
 
 1. **Login UI**:
     - Design a composable function for the login screen, ensuring it aligns with your app’s aesthetic.
