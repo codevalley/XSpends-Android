@@ -1,4 +1,4 @@
-### Design the Architecture
+### Design Architecture
 
 1. **MVVM Pattern**:
     - **ViewModel**: Design your ViewModel to hold and manage UI-related data in a lifecycle-conscious way. It should be responsible for making calls to the Repository layer and handling any business logic.
