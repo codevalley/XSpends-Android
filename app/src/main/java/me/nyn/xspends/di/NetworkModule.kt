@@ -17,7 +17,7 @@ object NetworkModule {
     @Provides
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("YOUR_BASE_URL")
+            .baseUrl("http://xspends.eastus.cloudapp.azure.com")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

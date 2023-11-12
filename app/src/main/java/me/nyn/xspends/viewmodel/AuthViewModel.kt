@@ -26,7 +26,7 @@ class AuthViewModel @Inject constructor(
 
     // Example of setting UI state
     fun register(username: String, password: String, email: String) {
-        viewModelScope.lßaunch {
+        viewModelScope.launch {
             _uiState.value = RegisterUiState.Loading
             try {
                 val response = authRepository.registerUser(RegisterUserRequest(username, password, email))
