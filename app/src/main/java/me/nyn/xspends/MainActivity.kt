@@ -8,7 +8,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import me.nyn.xspends.ui.theme.XSpendsTheme
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import me.nyn.xspends.ui.screens.RegisterScreen
+import me.nyn.xspends.ui.screens.WelcomeScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
             XSpendsTheme {
                 val navController = rememberNavController()
                 NavHost(navController, startDestination = "register") {
-                    composable("register") { RegisterScreen(navController) }
+                    composable("register") { WelcomeScreen(navController) }
                     // Define composable for other screens
                 }
             }
